@@ -1,0 +1,27 @@
+:root {
+    --bs-primary: #2563EB;
+    --bs-dark: #1E293B;
+}
+
+html, body { height: 100%; }
+
+body{
+  background-color: #F8FAFC;
+  color: #0F172A;
+  font-family: "Inter", sans-serif;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;    
+    text-align: center;
+    padding-top: 3rem;
+}   
+
+.btn-primary:hover{
+    background-color:#1E40AF;
+}
+
+h2 {
+    margin-top: 40px;
+}
