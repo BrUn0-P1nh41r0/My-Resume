@@ -39,3 +39,28 @@ ul{
     list-style: none;
     padding: 0;
 }
+
+.align-left{
+    text-align: left;
+}
+
+footer {
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    font-size: 0.6rem; /* pequeno */
+    color: #6B7280; /* cinza discreto */
+    opacity: 0.7;
+}
+
+footer:hover{
+    opacity: 1;
+}
+
+@media (max-width: 576px) {
+    footer {
+        bottom: 5px;
+        right: 10px;
+        font-size: 0.45rem;
+    }
+}
