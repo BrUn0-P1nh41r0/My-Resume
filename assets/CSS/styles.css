@@ -25,3 +25,17 @@ body{
 h2 {
     margin-top: 40px;
 }
+
+.colorblue {
+    color: #2563EB;
+}
+
+.company{
+     color:#0F172A;
+}
+
+ul{
+    margin-top: 25px;
+    list-style: none;
+    padding: 0;
+}
